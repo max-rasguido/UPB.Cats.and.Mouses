@@ -5,6 +5,7 @@ using System.Text;
 
 namespace GatosyRaton
 {
+    //macaneando
     class Gato
     {
         public int Posicionx
