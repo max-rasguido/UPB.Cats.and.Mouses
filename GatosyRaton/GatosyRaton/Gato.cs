@@ -5,7 +5,6 @@ using System.Text;
 
 namespace GatosyRaton
 {
-    //macaneando
     class Gato
     {
         public int Posicionx
@@ -18,12 +17,17 @@ namespace GatosyRaton
             get;
             set;
         }
-        void Gato(int x, int y)
+        public Gato(int x, int y, string name)
         {
             Posicionx = x;
             Posiciony = y;
+            Name = name;
         }
-
+        public string Name
+        {
+            get;
+            set;
+        }
         public int[] GetPos()
         {
             return new int[2]{Posicionx,Posiciony};
@@ -31,9 +35,9 @@ namespace GatosyRaton
 
         public bool MoveForward(bool Left)
         {
-            if (Left && Posiciony < 8)
+            if (Left && Posiciony < 7)
             {Posiciony++;return true;}
-            else if (Posiciony < 8 && Posicionx < 4 && Posicionx > 1)
+            else if (Posiciony < 7 && Posicionx < 7 && Posicionx > 0)
             { Posicionx++; Posiciony++; return true; }
             else
                 return false;
