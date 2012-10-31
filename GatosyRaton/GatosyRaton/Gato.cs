@@ -18,7 +18,7 @@ namespace GatosyRaton
             get;
             set;
         }
-        void Gato(int x, int y)
+        public Gato(int x, int y)
         {
             Posicionx = x;
             Posiciony = y;

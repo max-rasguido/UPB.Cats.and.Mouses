@@ -7,12 +7,18 @@ namespace GatosyRaton
 {
     class Raton : Gato
     {
+        public Raton(int x, int y):base(x,y)
+        {
+            Posicionx = x;
+            Posiciony = y;
+        }
+
         public bool MoveBackwards(bool Left)
         {
             return MoveForward(Left);
         }
 
-        public override bool MoveForward(bool Left)
+        public bool MoveForwardMouse(bool Left)
         {
             if (Left && Posiciony < 4)
             { Posiciony--; return true; }

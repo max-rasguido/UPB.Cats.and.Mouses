@@ -1,0 +1,5 @@
+C:\Users\Halvarex\Documents\GitHub\UPB.Cats.and.Mouses\GatosyRaton\GatosyRaton\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Halvarex\Documents\GitHub\UPB.Cats.and.Mouses\GatosyRaton\GatosyRaton\bin\Debug\GatosyRaton.exe
+C:\Users\Halvarex\Documents\GitHub\UPB.Cats.and.Mouses\GatosyRaton\GatosyRaton\bin\Debug\GatosyRaton.pdb
+C:\Users\Halvarex\Documents\GitHub\UPB.Cats.and.Mouses\GatosyRaton\GatosyRaton\obj\x86\Debug\GatosyRaton.exe
+C:\Users\Halvarex\Documents\GitHub\UPB.Cats.and.Mouses\GatosyRaton\GatosyRaton\obj\x86\Debug\GatosyRaton.pdb
